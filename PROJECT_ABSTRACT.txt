@@ -1,0 +1,17 @@
+PROJECT TITLE: Crop Recommendation System Using Machine Learning
+
+ABSTRACT
+Agriculture depends on soil nutrients and environmental conditions, and selecting a suitable crop is an important planning decision. This project develops an educational machine-learning prototype that predicts a crop class from nitrogen, phosphorus, potassium, temperature, humidity, soil pH, and rainfall measurements. A labelled crop dataset is cleaned and split into training and test sets. A Random Forest classifier is trained and evaluated on held-out data. A Streamlit web interface allows a user to enter feature values and view the predicted crop class along with the model's top class probabilities. The project aligns with Sustainable Development Goal 2 (Zero Hunger) by exploring data-driven agricultural decision support. Its predictions are limited by the dataset's quality and regional representativeness and should not be treated as guaranteed farming advice.
+
+PROBLEM STATEMENT
+Choosing a crop without considering soil and environmental conditions may lead to poor suitability. This project explores whether a supervised machine-learning model can learn patterns from a labelled dataset and provide a preliminary crop-class recommendation from selected input features.
+
+OBJECTIVES
+1. Prepare and validate a labelled crop recommendation dataset.
+2. Train a Random Forest classification model.
+3. Evaluate performance using a held-out test set and classification metrics.
+4. Build a simple Streamlit interface for crop prediction.
+5. Document the model's limitations and possible future improvements.
+
+EXPECTED OUTPUT
+A local web application that accepts soil nutrient and environmental values and displays the crop class predicted by the trained model. Actual accuracy must be measured by running the training script on the chosen dataset.
